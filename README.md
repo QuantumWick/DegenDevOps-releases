@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://github.com/QuantumWick/DegenDevOps-MT5-MCP-Toolkit/raw/main/src/assets/logo.png" width="128" height="128" alt="DegenDevOps" />
+  <img src="https://raw.githubusercontent.com/QuantumWick/HIVE-releases/main/assets/logo.png" width="128" height="128" alt="HIVE" />
 </p>
 
-<h1 align="center">DegenDevOps</h1>
+<h1 align="center">HIVE</h1>
 
 <p align="center">
   <strong>AI-Powered Trading Desktop for MetaTrader 5</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/QuantumWick/DegenDevOps-releases/releases/latest">
-    <img src="https://img.shields.io/github/v/release/QuantumWick/DegenDevOps-releases?label=latest&color=00D9A0" alt="Latest release" />
+  <a href="https://github.com/QuantumWick/HIVE-releases/releases/latest">
+    <img src="https://img.shields.io/github/v/release/QuantumWick/HIVE-releases?label=latest&color=00D9A0" alt="Latest release" />
   </a>
   <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Platform" />
   <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License" />
@@ -20,15 +20,15 @@
 
 ## 📥 Download
 
-**[⬇ Download the latest installer](https://github.com/QuantumWick/DegenDevOps-releases/releases/latest)**
+**[⬇ Download the latest installer](https://github.com/QuantumWick/HIVE-releases/releases/latest)**
 
 ### Which file should I pick?
 
 | Your PC | Installer |
 |---|---|
-| 💻 **Most Windows PCs** (Intel or AMD) | `DegenDevOps-*-win-x64.exe` |
-| 🖥 **ARM Windows laptops** (Snapdragon, Surface Pro X) | `DegenDevOps-*-win-arm64.exe` |
-| 🤷 **Not sure?** | `DegenDevOps-*-win.exe` (universal — works on both) |
+| 💻 **Most Windows PCs** (Intel or AMD) | `HIVE-*-win-x64.exe` |
+| 🖥 **ARM Windows laptops** (Snapdragon, Surface Pro X) | `HIVE-*-win-arm64.exe` |
+| 🤷 **Not sure?** | `HIVE-*-win.exe` (universal — works on both) |
 
 > Not sure which CPU architecture your PC uses? Right-click **This PC** → **Properties** → look at **System type**. If it says "x64" → use x64. If "ARM64" → use arm64.
 
@@ -91,10 +91,11 @@ No manual download needed. No git, no terminal.
 - Drag-and-drop priority ordering — if one provider fails, next one takes over automatically
 - Chat header shows which provider is responding in real-time
 
-### MT5 Trading Dashboard
+### HIVE Console — Live MT5 Trading Dashboard
 - Live account balance, equity, floating P/L, free margin
 - Open positions with BUY/SELL badges, profit coloring
 - Auto-refresh every 10 seconds
+- Mission-control view of every licensed EA across your fleet (Sharpe, Calmar, profit factor, equity curve)
 
 ### MCP Server Manager
 - Configure, start/stop, monitor MetaTrader MCP servers
@@ -112,12 +113,16 @@ No manual download needed. No git, no terminal.
 - Extend the AI with custom instructions via local markdown files
 - Bundled skills: risk management, strategy tester, MQL5 patterns, daily routine, news filter, and more
 
+### Licensing & Downloads
+- Per-product license keys for HIVE-distributed EAs and indicators (QuantumShift, QS Scalper, Quantum Worm, Quantum Decipher, FMS)
+- Master Keys that unlock every product on a single key
+- Built-in Downloads page — bundled `.zip` packages with EA + manuals + install guides ready to drop into MT5
+
 ### Additional Features
 - Auto-update built-in
 - Dark/light/glass themes
 - English / Chinese / Japanese interface
 - Cron scheduler for recurring tasks
-- Kanban board for task management
 
 ---
 
@@ -145,7 +150,7 @@ No manual download needed. No git, no terminal.
 
 - **Something broken?** Post in the `#support` channel on Discord
 - **Feature request / bug report?** DM an admin on Discord
-- **Release notes** for each version: see the [Releases page](https://github.com/QuantumWick/DegenDevOps-releases/releases)
+- **Release notes** for each version: see the [Releases page](https://github.com/QuantumWick/HIVE-releases/releases)
 
 ### Common Issues
 
@@ -166,13 +171,15 @@ If that button is missing, your Windows admin has blocked unsigned apps. Try ins
 3. Uninstall and reinstall — make sure you picked the right architecture (x64 vs arm64)
 4. If still broken, post logs in Discord `#support`. Log location: `%APPDATA%\DegenDevOps\logs\`
 
+> Heads up: the log folder is named `DegenDevOps\logs` for now (legacy path kept so existing installs aren't broken). HIVE is the same app — the folder will be renamed in a future release.
+
 </details>
 
 <details>
 <summary><strong>"Sign in with Discord" fails or redirects to a broken page</strong></summary>
 
 1. Make sure your default browser is a modern one (Chrome, Edge, Firefox)
-2. After Discord authorization, your browser should try to redirect to `degendevops://...`. If your browser asks "what app should open this link?", pick DegenDevOps
+2. After Discord authorization, your browser should try to redirect to `degendevops://...` (legacy custom protocol — kept for backward compat). If your browser asks "what app should open this link?", pick **HIVE**
 3. If you're not on the admin's approved user list, login will fail silently — contact the admin in Discord
 
 </details>
@@ -182,7 +189,7 @@ If that button is missing, your Windows admin has blocked unsigned apps. Try ins
 
 1. Make sure MT5 is running and logged into your broker
 2. In MT5: **Tools → Options → Expert Advisors → ✅ Allow algorithmic trading**
-3. In DegenDevOps: **MCP Servers** page — confirm `mt5-mcp-server` shows green "Running" badge
+3. In HIVE: **MCP Servers** page — confirm `mt5-mcp-server` shows green "Running" badge
 4. If not running, click **Start** on that server card
 
 </details>
@@ -201,7 +208,7 @@ If that button is missing, your Windows admin has blocked unsigned apps. Try ins
 ## 🔒 Privacy & Security
 
 - **Your API keys** are stored encrypted in your Windows user account (via OS keychain). Never sent anywhere except the AI provider you've chosen.
-- **Your chat history** is stored locally on your PC at `%USERPROFILE%\.degendevops\sessions\`
+- **Your chat history** is stored locally on your PC at `%USERPROFILE%\.degendevops\sessions\` (legacy folder name)
 - **Direct messages** are stored in our Supabase database with Row-Level Security — only you and the recipient can read them
 - **Discord login** grants us: your Discord username, avatar, and email — nothing else
 - **No telemetry**. We don't track what you do in the app.
@@ -216,7 +223,7 @@ Proprietary. Distributed to approved users only. Do not redistribute the install
 
 ## 🙏 Credits
 
-Built by the DegenDevOps team. Powered by:
+Built by the HIVE team at Quant Labs. Powered by:
 - [Electron](https://www.electronjs.org/)
 - [Anthropic Claude](https://www.anthropic.com/) + [Model Context Protocol](https://modelcontextprotocol.io/)
 - [Supabase](https://supabase.com/) (auth + DMs)
@@ -225,5 +232,5 @@ Built by the DegenDevOps team. Powered by:
 ---
 
 <p align="center">
-  <strong>📥 <a href="https://github.com/QuantumWick/DegenDevOps-releases/releases/latest">Download Latest Release</a></strong>
+  <strong>📥 <a href="https://github.com/QuantumWick/HIVE-releases/releases/latest">Download Latest Release</a></strong>
 </p>
