@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/QuantumWick/HIVE-releases/main/assets/logo.png" width="128" height="128" alt="HIVE" />
+  <img src="https://raw.githubusercontent.com/QuantumWick/HIVE/main/assets/logo.png" width="128" height="128" alt="HIVE" />
 </p>
 
 <h1 align="center">HIVE</h1>
@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/QuantumWick/HIVE-releases/releases/latest">
-    <img src="https://img.shields.io/github/v/release/QuantumWick/HIVE-releases?label=latest&color=00D9A0" alt="Latest release" />
+  <a href="https://github.com/QuantumWick/HIVE/releases/latest">
+    <img src="https://img.shields.io/github/v/release/QuantumWick/HIVE?label=latest&color=00D9A0" alt="Latest release" />
   </a>
   <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Platform" />
   <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License" />
@@ -20,7 +20,7 @@
 
 ## Download
 
-**[Download the latest installer](https://github.com/QuantumWick/HIVE-releases/releases/latest)**
+**[Download the latest installer](https://github.com/QuantumWick/HIVE/releases/latest)**
 
 ### Which file should I pick?
 
@@ -150,7 +150,7 @@ No manual download needed. No git, no terminal.
 
 - **Something broken?** Post in the `#support` channel on Discord
 - **Feature request or bug report?** DM an admin on Discord
-- **Release notes** for each version: see the [Releases page](https://github.com/QuantumWick/HIVE-releases/releases)
+- **Release notes** for each version: see the [Releases page](https://github.com/QuantumWick/HIVE/releases)
 
 ### Common Issues
 
@@ -232,5 +232,5 @@ Built by the HIVE team at Quantum Labs. Powered by:
 ---
 
 <p align="center">
-  <strong><a href="https://github.com/QuantumWick/HIVE-releases/releases/latest">Download Latest Release</a></strong>
+  <strong><a href="https://github.com/QuantumWick/HIVE/releases/latest">Download Latest Release</a></strong>
 </p>
